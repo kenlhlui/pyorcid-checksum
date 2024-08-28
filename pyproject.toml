@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pyorcid-checksum"
+name = "pyorcid_checksum"
 version = "0.1.0"
 description = "A simple Python Library for checking the validilty of ORCID and ORCID IDs"
 authors = ["kenlhlui <kenlh.lui@utoronto.ca>"]
@@ -7,12 +7,15 @@ license = "MIT"
 readme = "README.md"
 package-mode = true
 packages = [
-    { include = "src" },
+    {include = "*", from="pyorcid_checksum"}
 ]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 pytest = "^8.3.2"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
