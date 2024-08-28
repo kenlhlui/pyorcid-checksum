@@ -1,0 +1,68 @@
+{
+    "ORCID": {
+        "value": "https://orcid.org/0000-0002-1825-0097",
+        "form": "full",
+        "is_correct": true,
+        "comment": "Correct ORCID"
+    },
+    "ORCID_X": {
+        "value": "https://orcid.org/0000-0002-1694-233X",
+        "form": "full",
+        "is_correct": true,
+        "comment": "Correct ORCID with X"
+    },
+    "ORCID_ID": {
+        "value": "0000-0001-5109-3700",
+        "form": "id",
+        "is_correct": true,
+        "comment": "Correct ORCID iD"
+    },
+    "W_ORCID": {
+        "value": "https://orcid.org/1234-5678-1234-5678",
+        "form": "full",
+        "is_correct": false,
+        "comment": "Incorrect ORCID"
+    },
+    "W_ORCID_X": {
+        "value": "https://orcid.org/1234-5678-1234-567x",
+        "form": "full",
+        "is_correct": false,
+        "comment": "Incorrect ORCID with lowercase x"
+    },
+    "W_ORCID_LOWER_X": {
+        "value": "https://orcid.org/0000-0002-1694-233x",
+        "form": "full",
+        "is_correct": false,
+        "comment": "Incorrect ORCID, with lowercase x wrong only"
+    },
+    "W_ORCID_HTTP": {
+        "value": "http://orcid.org/0000-0002-1694-233X",
+        "form": "full",
+        "is_correct": false,
+        "comment": "Incorrect ORCID iD with http protocol"
+    },
+    "W_ORCID_TAILING": {
+        "value": "https://orcid.org/0000-0002-1694-233X/",
+        "form": "full",
+        "is_correct": false,
+        "comment": "Incorrect ORCID iD with trailing slash"
+    },
+    "W_ORCID_ID_HTTP_SLASH": {
+        "value": "http:/orcid.org/0000-0002-1694-233X",
+        "form": "full",
+        "is_correct": false,
+        "comment": "Incorrect ORCID iD with http protocol and trailing slash"
+    },
+    "W_ORCID_ID": {
+        "value": "0009-0000-0000-0000",
+        "form": "id",
+        "is_correct": false,
+        "comment": "Incorrect ORCID iD"
+    },
+    "W_ORCID_ID_LOWER_X": {
+        "value": "0000-0002-1694-233x",
+        "form": "id",
+        "is_correct": false,
+        "comment": "Incorrect ORCID iD, with lowercase x wrong only"
+    }
+}
