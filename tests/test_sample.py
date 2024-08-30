@@ -1,6 +1,6 @@
 """Test the ORCID_Checksum class in the checksum module
 """
-from checksum import ORCID_Checksum
+from src.pyorcid_checksum import ORCID_Checksum
 import json
 import pytest
 
